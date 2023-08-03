@@ -1,0 +1,258 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+html,body{
+  width:100%;
+  height: 100%;
+}
+#minicircle{
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  z-index: 99999;
+  border-radius: 50%;
+
+}
+.bounding{
+  width: fit-content;
+  overflow: hidden;
+}
+.bounding .boundelem{
+  transform: translateY(100%);
+}
+#main{
+  width: 100%;
+  background-color: black;
+}
+#landingPage{
+  position: relative;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 20px 40px;
+  color: white;
+  font-size:2px;
+}
+#navleft{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  
+  padding: 20px 40px;
+  color: white;
+  font-size:2px;
+  gap: 80px;
+}
+#nav a{
+  text-decoration: none;
+  font-size: 38px;
+  color: white;
+
+
+}
+
+
+#heading{
+  margin-top: 170px;
+  margin-left:220px;
+}
+#heading h1{
+  margin-left: 50px;
+  opacity: .6;
+  font-size: 10vw;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+#heading #secondh1{
+  margin-left: 380px;
+}
+.blocktext{
+  display:flex;
+  flex-direction: column;
+  align-items: end;
+  width: fit-content;
+}
+.blocktext h5{
+  text-align: right;
+  font-size: 1vw;
+}
+.blocktext h1{
+  text-align: right;
+}
+#smallHeading{
+  margin-top: 190px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+}
+#smallHeading h5{
+  text-align: right;
+  font-size: .9vw;
+  text-transform: uppercase;
+}
+#footer{
+  font-size: 0.8vw;
+  padding: 0 2vw;
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+#footer a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#footer #circle{
+  width: 45px;
+  height: 45px;
+  background-color: gray;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+#footer #iconset{
+  display: flex;
+  gap: 8px;
+  color: black;
+}
+#second{
+  color: white;
+  padding-left: 2vw;
+  padding-top: 200px;
+  margin-bottom: 150px;
+  width: 100%;
+  height:100vh;
+  background-color: black;
+  
+}
+.elem{
+  cursor:pointer;
+  position: relative;
+  width: 85%;
+  border-top: 1px solid #888;
+  padding: 3.5vw 3vw;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.elem h1 {
+  font-size: 4.8vw;
+  opacity: .68;
+  font-weight: 550;
+}
+.ri-arrow-right-fill{
+  font-size: 1vw;
+}
+.elementlast{
+  border-bottom: 1px solid #888;
+}
+.elem img{
+  height: 105%;
+  width: 30%;
+  z-index: 999999;
+  position: absolute;
+}
+#about{
+  color: white;
+  margin-top: -100px;
+  padding: 10vw 10vw;
+  padding-left: 40vw;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  
+
+}
+#about img{
+  border-radius: 100%;
+  width: 550px;
+
+}
+#textabout{
+  font-size: 20px;
+}
+#textabout h5{
+  text-transform: uppercase;
+  opacity: .69;
+  margin-bottom:10px ;
+}
+#textabout p{
+  width: 32rem;
+  line-height: 1.7;
+  margin-bottom: 50px;
+}
+#textabout a{
+  padding:12px 22px ;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+#footer {
+  color: #fff;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 30px;
+}
+
+#footerleft {
+  display: flex;
+  gap: 20px;
+}
+
+#footerright {
+  display: flex;
+  gap: 30px;
+}
+
+#footer a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+#footer a.resume {
+  font-size: 25px; 
+  margin-left: 50px;
+  transition: color 0.3s ease; 
+}
+
+#footer a.resume:hover {
+  color: #ff9900;
+}
+
