@@ -1,7 +1,3 @@
-const scroll = new LocomotiveScroll({
-  el: document.querySelector('#main'),
-  smooth: true
-});
 
 function firstpage(){
   var tl = gsap.timeline();
