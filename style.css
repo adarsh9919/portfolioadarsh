@@ -196,12 +196,13 @@ html {
 
 }
 #about img{
-  border-radius: 100%;
-  width: 550px;
+  border-radius: 150%;
+  width: 300px;
 
 }
 #textabout{
   font-size: 20px;
+  padding-left: 18px;
 }
 #textabout h5{
   text-transform: uppercase;
